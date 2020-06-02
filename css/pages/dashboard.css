@@ -103,10 +103,14 @@
 #big_stats  b { font-size:24px; display:block; line-height: 50px; color:#b2afaa; text-transform: uppercase;}
 #big_stats .stat:hover b {font: #19bc9c;}
 
-h6.bigstats{margin: 20px;
-border-bottom: 1px solid #eee;
-padding-bottom: 20px;
-margin-bottom: 26px;}
+h6.bigstats{
+	margin: 20px;
+	font-size: 12px;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 20px;
+	margin-bottom: 26px;
+	text-transform: uppercase;
+}
 
 #big_stats .stat h4
 {
