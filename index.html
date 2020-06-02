@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Dashboard - Friends of the Farmers</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600" rel="stylesheet">
+      <link href="css/font-awesome.min.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      <link href="css/pages/dashboard.css" rel="stylesheet">
+   </head>
+   <body>
+      <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+         <div class="container">
+            <a class="navbar-brand" href="#">
+            <img src="img/logo.png" width="30" height="30" alt="logo">
+            Friends of the Farmers
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-11" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-list-11">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="#"><i class="icon-settings"></i><span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                     <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle btn1 btn-main" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="icon-cog"></i> Account
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Profile</a>
+                        <a class="dropdown-item" href="#">Change Password</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Sign Out</a>
+                      </div>
+                    </li>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- /navbar -->
+      <div class="subnavbar">
+         <div class="subnavbar-inner">
+            <div class="container">
+               <ul class="mainnav">
+                  <li class="active"><a href="index.html"><i class="icon-dashboard"></i><span>Dashboard</span> </a> 
+                  </li>
+                  <li><a href="reports.html"><i class="icon-list-alt"></i><span>Technologies</span> </a> </li>
+                  <li><a href="charts.html"><i class="icon-shopping-cart"></i><span>Products</span> </a> </li>
+                  <li><a href="guidely.html"><i class="icon-facetime-video"></i><span>Webinar</span> </a></li>
+                  <li><a href="shortcodes.html"><i class="icon-comments-alt"></i><span>FAQ</span> </a> </li>
+                  <li class="dropdown"><a href="javascript:;"> <i class="icon-thumbs-up-alt"></i><span>Help</span></a></li>
+               </ul>
+            </div>
+            <!-- /container --> 
+         </div>
+         <!-- /subnavbar-inner --> 
+      </div>
+      <!-- /subnavbar -->
+      <div class="main">
+         <div class="main-inner">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="widget">
+                        <div class="widget-header">
+                           <i class="icon-bookmark"></i>
+                           <h3>Important Shortcuts</h3>
+                        </div>
+                        <!-- /widget-header -->
+                        <div class="widget-content">
+                           <div class="shortcuts row">
+                              <div class="col-6 col-sm-6 col-md-6 col-xl-3">
+                                 <a href="javascript:;" class="mb-3 shortcut">
+                                 <i class="shortcut-icon icon-user"></i>
+                                 <span class="shortcut-label">Demand Users</span> 
+                                 </a>
+                              </div>
+                              <div class="col-6 col-sm-6 col-md-6 col-xl-3">
+                                 <a href="javascript:;" class="mb-3 shortcut">
+                                 <i class="shortcut-icon icon-facetime-video"></i><span class="shortcut-label">Upcoming Webinar</span> 
+                                 </a>
+                              </div>
+                              <div class="col-6 col-sm-6 col-md-6 col-xl-3">
+                                 <a href="javascript:;" class="mb-3 shortcut">
+                                 <i class="shortcut-icon icon-picture"></i> <span class="shortcut-label">Gallery</span>
+                                 </a>
+                              </div>
+                              <div class="col-6 col-sm-6 col-md-6 col-xl-3">
+                                 <a href="javascript:;" class="shortcut"> 
+                                 <i class="shortcut-icon icon-bar-chart"></i><span class="shortcut-label">Project Statics</span>
+                                 </a>
+                              </div>
+                           </div>
+                           <!-- /shortcuts --> 
+                        </div>
+                        <!-- /widget-content --> 
+                     </div>
+                  </div>
+                  <!-- /span6 --> 
+                  <div class="col-md-12">
+                     <div class="widget widget-nopad">
+                        <div class="widget-header">
+                           <i class="icon-list-alt"></i>
+                           <h3> Today's Stats</h3>
+                        </div>
+                        <!-- /widget-header -->
+                        <div class="widget-content">
+                           <div class="widget big-stats-container">
+                              <div class="widget-content">
+                                 <h6 class="bigstats">Here is the total count for the Technologies, Organizations/Startups, Products and demand users</h6>
+                                 <div id="big_stats" class="row cf">
+                                    <div class="col-sm-12 col-md-6 col-xl-3">
+                                       <div class="stat"> <b>Technologies</b> 
+                                          <span class="value">851</span> 
+                                       </div>
+                                    </div>
+                                    <!-- .stat -->
+                                    <div class="col-sm-12 col-md-6 col-xl-3">
+                                       <div class="stat"> <b class="">Organizations</b> 
+                                          <span class="value">423</span> 
+                                       </div>
+                                    </div>
+                                    <!-- .stat -->
+                                    <div class="col-sm-12 col-md-6 col-xl-3">
+                                       <div class="stat"> <b class="">Products</b> 
+                                          <span class="value">922</span> 
+                                       </div>
+                                    </div>
+                                    <!-- .stat -->
+                                    <div class="col-sm-12 col-md-6 col-xl-3">
+                                       <div class="stat"> <b class="">Demand Users</b> 
+                                          <span class="value">250</span> 
+                                       </div>
+                                    </div>
+                                    <!-- .stat --> 
+                                 </div>
+                              </div>
+                              <!-- /widget-content --> 
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- /span6 -->
+               </div>
+               <!-- /row --> 
+            </div>
+            <!-- /container --> 
+         </div>
+         <!-- /main-inner --> 
+      </div>
+      <!-- /main -->
+      <div class="extra">
+         <div class="extra-inner">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-3">
+                     <h4>
+                        Friends of the Farmers
+                     </h4>
+                     <ul>
+                        <li><a href="javascript:;"></a></li>
+                        <li><a href="javascript:;">What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?</a></li>
+                     </ul>
+                  </div>
+                  <!-- /span3 -->
+                  <div class="col-md-3">
+                     <h4>
+                        Support
+                     </h4>
+                     <ul>
+                        <li><a href="javascript:;">Frequently Asked Questions</a></li>
+                        <li><a href="javascript:;">Ask a Question</a></li>
+                        <li><a href="javascript:;">Video Tutorial</a></li>
+                        <li><a href="javascript:;">Feedback</a></li>
+                     </ul>
+                  </div>
+                  <!-- /span3 -->
+                  <div class="col-md-3">
+                     <h4>
+                        Something Legal
+                     </h4>
+                     <ul>
+                        <li><a href="javascript:;">Read License</a></li>
+                        <li><a href="javascript:;">Terms of Use</a></li>
+                        <li><a href="javascript:;">Privacy Policy</a></li>
+                     </ul>
+                  </div>
+                  <!-- /span3 -->
+                  <div class="col-md-3">
+                     <h4>Important Shortcuts</h4>
+                     <ul>
+                        <li><a href="">Upcoming Webinars</a></li>
+                        <li><a href="">Completed Webinars</a></li>
+                        <li><a href="">Attempted Webinars</a></li>
+                        <li><a href="">Project Statitics</a></li>
+                     </ul>
+                  </div>
+                  <!-- /span3 -->
+               </div>
+               <!-- /row --> 
+            </div>
+            <!-- /container --> 
+         </div>
+         <!-- /extra-inner --> 
+      </div>
+      <!-- /extra -->
+      <div class="footer">
+         <div class="footer-inner">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12"> &copy; 2020 <a href="http://www.indiancst.com" target="_blank">Indian CST All rights reserved</a>. </div>
+                  <!-- /span12 --> 
+               </div>
+               <!-- /row --> 
+            </div>
+            <!-- /container --> 
+         </div>
+         <!-- /footer-inner --> 
+      </div>
+      <!-- /footer --> 
+ 
+      <script src="js/jquery-3.2.1.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/base.js"></script> 
+      <script type="text/javascript">
+         $(document).ready(function(){
+           $(document).on('click', 'a', function(e){
+             e.preventDefault();
+           })
+         })
+      </script>
+   </body>
+</html>
